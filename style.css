@@ -1,0 +1,27 @@
+@import "tipoletra/stylesheet.css";
+
+#game{
+	font-family: 'gooddogregular';
+}
+
+.row1, .row2, .row3, .row4{
+  position: relative;
+  width: 70px;
+  float: left;
+}
+
+/* #cell1, #cell2, #cell3, #cell4{
+	float: left;
+
+} */
+
+.table{
+    clear: both;
+    width: 60%;
+	height:60%;
+	border-radius: 25px;
+	
+	border-style: solid;
+	font-size: 65px;
+	font-family: 'gooddogregular';
+}
