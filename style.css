@@ -4,16 +4,11 @@
 	font-family: 'gooddogregular';
 }
 
-.row1, .row2, .row3, .row4{
+.row1, .row2, .row3, .row4, .rowbuttons{
   position: relative;
   width: 70px;
   float: left;
 }
-
-/* #cell1, #cell2, #cell3, #cell4{
-	float: left;
-
-} */
 
 .table{
     clear: both;
@@ -24,4 +19,29 @@
 	border-style: solid;
 	font-size: 65px;
 	font-family: 'gooddogregular';
+}
+
+.checkTL{
+	display:block;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background: #464646;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+    font-weight:bold;
+
+	margin-bottom: 16px;
+	margin-top: 16px;
+
+}
+
+.checkTL:hover{
+	background: #262626;
+
 }
